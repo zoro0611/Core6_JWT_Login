@@ -10,5 +10,6 @@ namespace Core6_JWT_Login.Models.DBModels
         public string Username { get; set; } = null!;
         public string Password { get; set; } = null!;
         public DateTime LastLoginDateTime { get; set; }
+        public string? JwtToken { get; set; }
     }
 }
