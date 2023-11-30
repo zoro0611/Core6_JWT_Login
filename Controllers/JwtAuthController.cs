@@ -41,7 +41,6 @@ namespace Core6_JWT_Login.Controllers
                 user.JwtToken = token;
                 _userRepos.Update(user);
                 response = Ok(token);
-
             }
 
             return response;
