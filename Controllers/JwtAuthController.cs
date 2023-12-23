@@ -29,7 +29,7 @@ namespace Core6_JWT_Login.Controllers
         public IActionResult Login([FromBody] LoginViewModel loginVM)
         {
             //_logger.LogWarning(2001, DateTime.Now.ToLongTimeString() + " JwtAuth控制器POST方法被呼叫");
-
+            //測試CICD
             IActionResult response = Unauthorized();
 
             var user = AuthenticateUser(loginVM);
