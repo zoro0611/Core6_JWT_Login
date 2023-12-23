@@ -11,7 +11,7 @@ using System.Text;
 
 namespace Core6_JWT_Login.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class JwtAuthController : ControllerBase
     {
